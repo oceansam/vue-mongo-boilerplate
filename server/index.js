@@ -16,6 +16,6 @@ app.use(cors());
 
 app.use("/mongo", mongo);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 7070;
 
 app.listen(port, () => console.log(`We listening on port ${port}`));
