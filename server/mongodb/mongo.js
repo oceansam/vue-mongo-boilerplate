@@ -3,6 +3,15 @@ const mongodb = require("mongodb");
 require("dotenv").config();
 
 const router = express.Router();
+
+// Post requests on /mongo
+router.post("/", async (req, res) => {
+	const data = await useMongo();
+	await data.insertOne({ body: req.body.content });
+	res.status(200).send();
+});
+
+// Get Requests on /mongo
 router.get("/", async (req, res) => {
 	const data = await useMongo();
 	res.send(await data.find({}).toArray());
