@@ -1,5 +1,14 @@
 # Vue Mongo Express Boilerplate
 
+## How to use
+Clone
+```
+git clone https://github.com/oceansam/vue-mongo-boilerplate.git
+```
+or
+
+[Click here to Fork!](https://github.com/user/repository/fork)
+
 ## Project setup
 
 ```js
