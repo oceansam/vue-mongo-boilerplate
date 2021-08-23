@@ -7,7 +7,7 @@ git clone https://github.com/oceansam/vue-mongo-boilerplate.git
 ```
 or
 
-[Click here to Fork!](https://github.com/user/repository/fork)
+[Click here to Fork!](https://github.com/oceansam/vue-mongo-boilerplate/fork)
 
 ## Project setup
 
